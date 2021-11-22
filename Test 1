@@ -1,0 +1,11 @@
+@events.register(events.NewMessage(chats='chtwrsCastleBot', incoming = True))
+async def my_event_handler(event):
+    if 'Exchange slot: Charcoal' in event.raw_text:
+        time.sleep(random.randint(0, 1))
+        buttons = await event.get_buttons() 
+        for bline in buttons: 
+            for button in bline: 
+                if 'buy all' in button.button.text: 
+                    await button.click() 
+        time.sleep(3)
+loop.run_forever()
