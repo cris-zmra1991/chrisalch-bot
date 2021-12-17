@@ -125,9 +125,9 @@ if API_ID5 is None or API_HASH5 is None:
 
 #------------------------------ CLIENTE 6 -------------------------------
 
-API_ID5 = os.environ.get('api_id5', None)
-API_HASH5 = os.environ.get('api_hash5', None)
-STRING_SESSION5 = os.environ.get('STRING_SESSION5', None)
+API_ID6 = os.environ.get('api_id6', None)
+API_HASH6 = os.environ.get('api_hash6', None)
+STRING_SESSION6 = os.environ.get('STRING_SESSION6', None)
 
 
 if API_ID6 is None or API_HASH6 is None:
