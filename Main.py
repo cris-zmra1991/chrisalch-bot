@@ -157,6 +157,10 @@ async def me_handler(event):
 	if event.raw_text == 'Todo bien':
 		# Entonces respondo Me alegro?
 		await client.send_message('me', 'Me alegro')
+	# El mensaje decia "christian"?
+	if event.raw_text == 'christian':
+		# Entonces respondo Me alegro?
+		await client.send_message('me', 'este es el bot de christian y no el de ale')
 
 
 @events.register(events.NewMessage(chats=-1001394317550))
