@@ -125,9 +125,9 @@ if API_ID5 is None or API_HASH5 is None:
 
 #------------------------------ CLIENTE 6 -------------------------------
 
-API_ID6 = os.environ.get('api_id6', None)
-API_HASH6 = os.environ.get('api_hash6', None)
-STRING_SESSION6 = os.environ.get('STRING_SESSION6', None)
+API_ID5 = os.environ.get('api_id5', None)
+API_HASH5 = os.environ.get('api_hash5', None)
+STRING_SESSION5 = os.environ.get('STRING_SESSION5', None)
 
 
 if API_ID6 is None or API_HASH6 is None:
@@ -138,6 +138,337 @@ if API_ID6 is None or API_HASH6 is None:
   API_HASH6 = config['ENVIROMENT']['TG_API_HASH5']
   STRING_SESSION6 = config['ENVIROMENT']['STRING_SESSION5']
   BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 7 -------------------------------
+
+API_ID7 = os.environ.get('api_id7', None)
+API_HASH7 = os.environ.get('api_hash7', None)
+STRING_SESSION7 = os.environ.get('STRING_SESSION7', None)
+
+
+if API_ID7 is None or API_HASH7 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID7 = int(config['ENVIROMENT']['TG_API_ID7'])
+  API_HASH7 = config['ENVIROMENT']['TG_API_HASH7']
+  STRING_SESSION7 = config['ENVIROMENT']['STRING_SESSION7']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 8 -------------------------------
+
+API_ID8 = os.environ.get('api_id8', None)
+API_HASH8 = os.environ.get('api_hash8', None)
+STRING_SESSION8 = os.environ.get('STRING_SESSION8', None)
+
+
+if API_ID8 is None or API_HASH8 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID8 = int(config['ENVIROMENT']['TG_API_ID8'])
+  API_HASH8 = config['ENVIROMENT']['TG_API_HASH8']
+  STRING_SESSION8 = config['ENVIROMENT']['STRING_SESSION8']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 9 -------------------------------
+
+API_ID9 = os.environ.get('api_id9', None)
+API_HASH9 = os.environ.get('api_hash9', None)
+STRING_SESSION9 = os.environ.get('STRING_SESSION9', None)
+
+
+if API_ID9 is None or API_HASH9 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID9 = int(config['ENVIROMENT']['TG_API_ID9'])
+  API_HASH9 = config['ENVIROMENT']['TG_API_HASH9']
+  STRING_SESSION9 = config['ENVIROMENT']['STRING_SESSION9']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 10 -------------------------------
+
+API_ID10 = os.environ.get('api_id10', None)
+API_HASH10 = os.environ.get('api_hash10', None)
+STRING_SESSION10 = os.environ.get('STRING_SESSION10', None)
+
+
+if API_ID10 is None or API_HASH10 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID10 = int(config['ENVIROMENT']['TG_API_ID10'])
+  API_HASH10 = config['ENVIROMENT']['TG_API_HASH10']
+  STRING_SESSION10 = config['ENVIROMENT']['STRING_SESSION10']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 11 -------------------------------
+
+API_ID11 = os.environ.get('api_id11', None)
+API_HASH11 = os.environ.get('api_hash11', None)
+STRING_SESSION11 = os.environ.get('STRING_SESSION11', None)
+
+
+if API_ID11 is None or API_HASH11 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID11 = int(config['ENVIROMENT']['TG_API_ID11'])
+  API_HASH11 = config['ENVIROMENT']['TG_API_HASH11']
+  STRING_SESSION11 = config['ENVIROMENT']['STRING_SESSION11']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 12 -------------------------------
+
+API_ID12 = os.environ.get('api_id12', None)
+API_HASH12 = os.environ.get('api_hash12', None)
+STRING_SESSION12 = os.environ.get('STRING_SESSION12', None)
+
+
+if API_ID12 is None or API_HASH12 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID12 = int(config['ENVIROMENT']['TG_API_ID12'])
+  API_HASH12 = config['ENVIROMENT']['TG_API_HASH12']
+  STRING_SESSION12 = config['ENVIROMENT']['STRING_SESSION12']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 13 -------------------------------
+
+API_ID13 = os.environ.get('api_id13', None)
+API_HASH13 = os.environ.get('api_hash13', None)
+STRING_SESSION13 = os.environ.get('STRING_SESSION13', None)
+
+
+if API_ID13 is None or API_HASH13 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID13 = int(config['ENVIROMENT']['TG_API_ID13'])
+  API_HASH13 = config['ENVIROMENT']['TG_API_HASH13']
+  STRING_SESSION13 = config['ENVIROMENT']['STRING_SESSION13']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 14 -------------------------------
+
+API_ID14 = os.environ.get('api_id14', None)
+API_HASH14 = os.environ.get('api_hash14', None)
+STRING_SESSION14 = os.environ.get('STRING_SESSION14', None)
+
+
+if API_ID14 is None or API_HASH14 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID14 = int(config['ENVIROMENT']['TG_API_ID14'])
+  API_HASH14 = config['ENVIROMENT']['TG_API_HASH14']
+  STRING_SESSION14 = config['ENVIROMENT']['STRING_SESSION14']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+#------------------------------ CLIENTE 15 -------------------------------
+
+API_ID15 = os.environ.get('api_id15', None)
+API_HASH15 = os.environ.get('api_hash15', None)
+STRING_SESSION15 = os.environ.get('STRING_SESSION15', None)
+
+
+if API_ID15 is None or API_HASH15 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID15 = int(config['ENVIROMENT']['TG_API_ID15'])
+  API_HASH15 = config['ENVIROMENT']['TG_API_HASH15']
+  STRING_SESSION15 = config['ENVIROMENT']['STRING_SESSION15']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+API_ID16 = os.environ.get('api_id16', None)
+API_HASH16 = os.environ.get('api_hash16', None)
+STRING_SESSION16 = os.environ.get('STRING_SESSION16', None)
+
+
+if API_ID16 is None or API_HASH16 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID16 = int(config['ENVIROMENT']['TG_API_ID16'])
+  API_HASH16 = config['ENVIROMENT']['TG_API_HASH16']
+  STRING_SESSION16 = config['ENVIROMENT']['STRING_SESSION16']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 17 -------------------------------
+
+API_ID17 = os.environ.get('api_id17', None)
+API_HASH17 = os.environ.get('api_hash17', None)
+STRING_SESSION17 = os.environ.get('STRING_SESSION17', None)
+
+
+if API_ID17 is None or API_HASH17 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID17 = int(config['ENVIROMENT']['TG_API_ID17'])
+  API_HASH17 = config['ENVIROMENT']['TG_API_HASH17']
+  STRING_SESSION17 = config['ENVIROMENT']['STRING_SESSION17']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 18 -------------------------------
+
+API_ID18 = os.environ.get('api_id18', None)
+API_HASH18 = os.environ.get('api_hash18', None)
+STRING_SESSION18 = os.environ.get('STRING_SESSION18', None)
+
+
+if API_ID18 is None or API_HASH18 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID18 = int(config['ENVIROMENT']['TG_API_ID18'])
+  API_HASH18 = config['ENVIROMENT']['TG_API_HASH18']
+  STRING_SESSION18 = config['ENVIROMENT']['STRING_SESSION18']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 19 -------------------------------
+
+API_ID19 = os.environ.get('api_id19', None)
+API_HASH19 = os.environ.get('api_hash19', None)
+STRING_SESSION19 = os.environ.get('STRING_SESSION19', None)
+
+
+if API_ID19 is None or API_HASH19 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID19 = int(config['ENVIROMENT']['TG_API_ID19'])
+  API_HASH19 = config['ENVIROMENT']['TG_API_HASH19']
+  STRING_SESSION19 = config['ENVIROMENT']['STRING_SESSION19']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+
+#------------------------------ CLIENTE 20 -------------------------------
+
+API_ID20 = os.environ.get('api_id20', None)
+API_HASH20 = os.environ.get('api_hash20', None)
+STRING_SESSION20 = os.environ.get('STRING_SESSION20', None)
+
+
+if API_ID20 is None or API_HASH20 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID20 = int(config['ENVIROMENT']['TG_API_ID20'])
+  API_HASH20 = config['ENVIROMENT']['TG_API_HASH20']
+  STRING_SESSION20 = config['ENVIROMENT']['STRING_SESSION20']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+#------------------------------ CLIENTE 21 -------------------------------
+
+API_ID21 = os.environ.get('api_id21', None)
+API_HASH21 = os.environ.get('api_hash21', None)
+STRING_SESSION21 = os.environ.get('STRING_SESSION21', None)
+
+
+if API_ID21 is None or API_HASH21 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID21 = int(config['ENVIROMENT']['TG_API_ID21'])
+  API_HASH21 = config['ENVIROMENT']['TG_API_HASH21']
+  STRING_SESSION21 = config['ENVIROMENT']['STRING_SESSION21']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+#------------------------------ CLIENTE 22 -------------------------------
+
+API_ID22 = os.environ.get('api_id22', None)
+API_HASH22 = os.environ.get('api_hash22', None)
+STRING_SESSION22 = os.environ.get('STRING_SESSION22', None)
+
+
+if API_ID22 is None or API_HASH22 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID22 = int(config['ENVIROMENT']['TG_API_ID22'])
+  API_HASH22 = config['ENVIROMENT']['TG_API_HASH22']
+  STRING_SESSION22 = config['ENVIROMENT']['STRING_SESSION22']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+#------------------------------ CLIENTE 23 -------------------------------
+
+API_ID23 = os.environ.get('api_id23', None)
+API_HASH23 = os.environ.get('api_hash23', None)
+STRING_SESSION23 = os.environ.get('STRING_SESSION23', None)
+
+
+if API_ID23 is None or API_HASH23 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID23 = int(config['ENVIROMENT']['TG_API_ID23'])
+  API_HASH23 = config['ENVIROMENT']['TG_API_HASH23']
+  STRING_SESSION23 = config['ENVIROMENT']['STRING_SESSION23']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+#------------------------------ CLIENTE 24 -------------------------------
+
+API_ID24 = os.environ.get('api_id24', None)
+API_HASH24 = os.environ.get('api_hash24', None)
+STRING_SESSION24 = os.environ.get('STRING_SESSION24', None)
+
+
+if API_ID24 is None or API_HASH24 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID24 = int(config['ENVIROMENT']['TG_API_ID24'])
+  API_HASH24 = config['ENVIROMENT']['TG_API_HASH24']
+  STRING_SESSION24 = config['ENVIROMENT']['STRING_SESSION24']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+#------------------------------ CLIENTE 25 -------------------------------
+
+API_ID25 = os.environ.get('api_id25', None)
+API_HASH25 = os.environ.get('api_hash25', None)
+STRING_SESSION25 = os.environ.get('STRING_SESSION25', None)
+
+
+if API_ID25 is None or API_HASH25 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID25 = int(config['ENVIROMENT']['TG_API_ID25'])
+  API_HASH25 = config['ENVIROMENT']['TG_API_HASH25']
+  STRING_SESSION25 = config['ENVIROMENT']['STRING_SESSION25']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+#------------------------------ CLIENTE 26 -------------------------------
+
+API_ID26 = os.environ.get('api_id26', None)
+API_HASH26 = os.environ.get('api_hash26', None)
+STRING_SESSION26 = os.environ.get('STRING_SESSION26', None)
+
+
+if API_ID26 is None or API_HASH26 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID26 = int(config['ENVIROMENT']['TG_API_ID26'])
+  API_HASH26 = config['ENVIROMENT']['TG_API_HASH26']
+  STRING_SESSION26 = config['ENVIROMENT']['STRING_SESSION26']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
+
+
+
+  
 
 
 #--------------------------------- BOT --------------------------------------
