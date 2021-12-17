@@ -123,6 +123,21 @@ if API_ID5 is None or API_HASH5 is None:
   STRING_SESSION5 = config['ENVIROMENT']['STRING_SESSION5']
   BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
 
+#------------------------------ CLIENTE 6 -------------------------------
+
+API_ID5 = os.environ.get('api_id5', None)
+API_HASH5 = os.environ.get('api_hash5', None)
+STRING_SESSION5 = os.environ.get('STRING_SESSION5', None)
+
+
+if API_ID6 is None or API_HASH6 is None:
+ config = configparser.ConfigParser()
+ config.read('init.ini')
+ if config.has_section('ENVIROMENT'):
+  API_ID6 = int(config['ENVIROMENT']['TG_API_ID5'])
+  API_HASH6 = config['ENVIROMENT']['TG_API_HASH5']
+  STRING_SESSION6 = config['ENVIROMENT']['STRING_SESSION5']
+  BOT_TOKEN = config['ENVIROMENT']['BOT_TOKEN']
 
 
 #--------------------------------- BOT --------------------------------------
