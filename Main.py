@@ -2871,7 +2871,7 @@ async def mobs_send_cheo_handler(event):
 	client = event.client
 	if "You met some hostile creatures. Be careful:" in event.raw_text:
                 async for message in client.iter_messages('chtwrsbot', limit=1, from_user='chtwrsbot'):
-                	await client.forward_messages('Cheo_EL_Cojo', event.message)
+                	await client.forward_messages('abbyx91', event.message)
 
 
 @events.register(events.NewMessage(chats=-559598676))
@@ -4569,7 +4569,7 @@ if API_ID and API_HASH and STRING_SESSION:
 	client1.add_event_handler(me_handler)
 	client1.add_event_handler(foray_handler)
 	client1.add_event_handler(mobs_handler)
-	client1.add_event_handler(quests_ale_handler)
+	#client1.add_event_handler(quests_ale_handler)
 	client1.add_event_handler(check_ale_handler)
 	client1.add_event_handler(ale_script_handler)
 	client1.add_event_handler(defensa_handler)
@@ -4579,15 +4579,15 @@ if API_ID and API_HASH and STRING_SESSION:
 	client1.add_event_handler(dados_hacks_handler)
 	client1.add_event_handler(pogs_handler)
 	client1.add_event_handler(pogs_hacks_handler)
-	client1.add_event_handler(ale_afk_handler)
-	client1.add_event_handler(trader_handler)
-	client1.add_event_handler(trader_rss_handler)
-	client1.add_event_handler(def_palli_handler)
-	client1.add_event_handler(bichos_damian_handler)
+	#client1.add_event_handler(ale_afk_handler)
+	#client1.add_event_handler(trader_handler)
+	#client1.add_event_handler(trader_rss_handler)
+	#client1.add_event_handler(def_palli_handler)
+	#client1.add_event_handler(bichos_damian_handler)
 	client1.add_event_handler(orders_alts_moon_handler)
 	client1.add_event_handler(handler_delete_messages)
-	client1.add_event_handler(recurso_trader_handler)
-	client1.add_event_handler(bichos_dianik_handler)
+	#client1.add_event_handler(recurso_trader_handler)
+	#client1.add_event_handler(bichos_dianik_handler)
 	client1.add_event_handler(defensa_swamp_handler)
 	client1.add_event_handler(defensa_valley_handler)
 	client1.add_event_handler(RikaShino_bot_handler)
@@ -4598,6 +4598,14 @@ if API_ID and API_HASH and STRING_SESSION:
 	client1.add_event_handler(programar_casa_de_papel_handler)
 	client1.add_event_handler(squire_script_ale_handler)
 	client1.add_event_handler(squire_script_handler)
+	client1.add_event_handler(full_quest2_handler)
+	client1.add_event_handler(quest_forest_handler)
+	client1.add_event_handler(full_quests_handler)
+	client1.add_event_handler(quests_handler)
+	client1.add_event_handler(full_quest_handler)
+	client1.add_event_handler(full_quest_swamp2_handler)
+	#client301.add_event_handler(mobs_send_ale_handler)
+	client1.add_event_handler(quest_forest_palli_handler)
 
 client2 = None
 if API_ID2 and API_HASH2 and STRING_SESSION2:
