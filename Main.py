@@ -4627,6 +4627,14 @@ if API_ID2 and API_HASH2 and STRING_SESSION2:
 	client2.add_event_handler(defensa_swamps_handler)
 	client2.add_event_handler(defensa_valleys_handler)
 	client2.add_event_handler(ares_handler)
+	client2.add_event_handler(full_quest2_handler)
+	client2.add_event_handler(quest_forest_handler)
+	client2.add_event_handler(full_quests_handler)
+	client2.add_event_handler(quests_handler)
+	client2.add_event_handler(full_quest_handler)
+	client2.add_event_handler(full_quest_swamp2_handler)
+	#client301.add_event_handler(mobs_send_ale_handler)
+	client2.add_event_handler(quest_forest_palli_handler)
 
 client3 = None
 if API_ID3 and API_HASH3 and STRING_SESSION3:
